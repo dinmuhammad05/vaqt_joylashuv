@@ -3,6 +3,8 @@ from timezonefinder import TimezoneFinder
 from datetime import datetime
 import pytz
 
+
+print("Kod ishalamaydi dasturchi yomon")
 try:
     joy_nomi = input("Joy nomini kiriting: ")
 
