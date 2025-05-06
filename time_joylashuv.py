@@ -22,6 +22,9 @@ try:
             print(f"🕒 {hozir.strftime('%d-%m-%Y %H:%M:%S')}")
             print(f"🌍 Vaqt zonasi: {vaqt_zona_nomi}")
             print(f"📌 Koordinatalar: {joy.latitude}, {joy.longitude}")
+            print(f"🏙️ Manzil: {joy.address}")
+            print(f"📍 Joyning kenglik va uzunligi: {joy.latitude}, {joy.longitude}")
+            
         else:
             print("Vaqt zonasi aniqlanmadi.")
     else:
