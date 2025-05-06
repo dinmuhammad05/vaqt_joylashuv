@@ -4,7 +4,7 @@ from datetime import datetime
 import pytz
 
 
-print("Kod ishalamaydi dasturchi yomon")
+# Ushbu dastur foydalanuvchidan joy nomini so'raydi va ushbu joyning vaqt zonasini aniqlaydi.
 try:
     joy_nomi = input("Joy nomini kiriting: ")
 
